@@ -62,7 +62,7 @@ class TestBing(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    report = REPORT_PATH + time.strftime('%Y-%m-%d-%H-%M-%S') + '.html'
+    report = REPORT_PATH + '\\' + time.strftime('%Y-%m-%d-%H-%M-%S') + '.html'
     logger.info(report)
     print(report)
     with open(report,'wb') as f:
