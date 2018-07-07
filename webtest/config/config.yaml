@@ -1,0 +1,25 @@
+# 测试地址
+URL: http://www.bing.com
+
+log:
+  file_name: test.log
+  backup: 5
+  console_level: WARNING
+  file_level: DEBUG
+  pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+# 数据库连接配置
+host: 172.20.10.105
+port: 27017
+user: root
+password: Qwer@kd286
+
+house:
+  family:
+    name: Doe
+    parents:
+      - John
+      - Jane
+  address:
+    number: 34
+    street: Main street
