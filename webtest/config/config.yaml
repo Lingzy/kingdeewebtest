@@ -8,6 +8,22 @@ log:
   file_level: DEBUG
   pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 
+hettp_method:
+  - POST
+  - GET
+  - DELETE
+  - HEAD
+  - PUT
+  - TRACE
+  - OPTIONS
+  - CONNECT
+
+TYPES:
+  firefox: wedriver.Firefox
+  chrome: webdriver.Chrome
+  ie: webdriver.Ie
+  phantomjs: webdriver.PhantomJS
+  
 # 数据库连接配置
 host: 172.20.10.105
 port: 27017
